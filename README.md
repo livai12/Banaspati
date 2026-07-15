@@ -61,9 +61,11 @@ The system was evaluated against 10 representative queries containing complex co
 ## Repository Structure
 
 - banaspati_multimodal_rag.ipynb: The main Jupyter notebook containing the database creation, retrieval, evaluation, and dashboard visualization cells.
-- banaspati_eval_questions.csv: Evaluation questions and ground truth answers used for benchmarks.
-- Dataset Files: PDF and DOCX files containing curriculum details, lecturer profiles, and schedules.
+- dataset/: Directory containing the evaluation question database and academic source materials:
+  - banaspati_eval_questions.csv: Evaluation questions and ground truth answers used for benchmarks.
+  - Data Dosen.pdf, Jadwal Perkuliahan.docx, Kalender-Akademik-ITS-Thn-Akademik-2025-2026.pdf, Kurikulum.pdf, Nilai snbt 2025.pdf, Peraturan Akademik.pdf, Sosialisasi Magang dan Prestasi DTI.pdf, Visi Misi Departemen.pdf.
 - Performance Charts: Generated PNG visualizations showing latency, correctness heatmaps, and Ollama vs. Gemini comparison metrics.
+
 
 ## Getting Started
 
