@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Local databases & temp files
+banaspati_chroma_db/
+test_chroma_db/
+extracted_images/
+tmp_dir/
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Scratch and helper scripts
+*_source.py
+check_*.py
+compare_*.py
+convert_*.py
+copy_*.py
+debug_*.py
+find_*.py
+inspect_*.py
+patch_*.py
+print_*.py
+run_*.py
+search_*.py
+test_*.py
+verify_*.py
+view_*.py
+from datasets import load_dataset.txt
+notebook_source.py
+laporan_evaluasi_banaspati.md
+rebuild_*.py
+rebuild_db_and_eval.py
